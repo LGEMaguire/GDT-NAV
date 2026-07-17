@@ -8,7 +8,7 @@ In simulation, GDT-DRL improves success and sharply reduces collisions versus re
 <img width="458" height="360" alt="showcasev3" src="https://github.com/user-attachments/assets/eec62e9c-9878-4f2d-bb0c-cba729795bf2" />
 
 
-<img width="1080" height="1080" alt="GDT-DRL_trained_crowdsim" src="https://github.com/user-attachments/assets/b1d004f3-b83b-418c-a477-48e869fc057f" />
+<img width="520" height="520" alt="GDT-DRL_trained_crowdsim" src="https://github.com/user-attachments/assets/b1d004f3-b83b-418c-a477-48e869fc057f" />
 
 
 
