@@ -1,6 +1,6 @@
-## GDT-DRL
+## GDT-NAV
 
-GDT-DRL is for human-aware navigation of mobile robots in human-populated environments. The robot pursues a goal, avoids static obstacles and responds to pedestrian motion, in simulation and in zero-shot deployment on a physical robot. Against other navigation frameworks it achieves higher observed success and lower observed collision rates in dense crowds and in a collision-course stress test, with strong zero-shot transfer.
+GDT-NAV is for human-aware navigation of mobile robots in human-populated environments. The robot pursues a goal, avoids static obstacles and responds to pedestrian motion, in simulation and in zero-shot deployment on a physical robot. Against other navigation frameworks it achieves higher observed success and lower observed collision rates in dense crowds and in a collision-course stress test, with strong zero-shot transfer.
 
 The framework is a graph-first digital twin. At each control cycle, LiDAR beams, the robot state and detected humans form distinct node types in a single heterogeneous graph. Short-horizon future-position features augment the human nodes so the policy can reason proactively rather than purely reactively. A graph attention network processes that graph, and the resulting embedding drives a Twin Delayed Deep Deterministic Policy Gradient (TD3) controller.
 
