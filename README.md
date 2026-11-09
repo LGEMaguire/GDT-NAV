@@ -4,7 +4,7 @@ GDT-DRL is for human-aware navigation of mobile robots in human-populated enviro
 
 The framework is a graph-first digital twin. At each control cycle, LiDAR beams, the robot state and detected humans form distinct node types in a single heterogeneous graph. Short-horizon future-position features augment the human nodes so the policy can reason proactively rather than purely reactively. A graph attention network processes that graph, and the resulting embedding drives a Twin Delayed Deep Deterministic Policy Gradient (TD3) controller.
 
-<img width="458" height="360" alt="showcasev3" src="https://github.com/user-attachments/assets/eec62e9c-9878-4f2d-bb0c-cba729795bf2" />
+
 
 <img width="520" height="520" alt="GDT-DRL_trained_crowdsim" src="https://github.com/user-attachments/assets/b1d004f3-b83b-418c-a477-48e869fc057f" />
 
