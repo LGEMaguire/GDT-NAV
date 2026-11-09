@@ -32,7 +32,7 @@ Add `--render` for the pygame window. Logs `qvalues.log` and `gat_validation.log
 python test_gat_td3_v5.py --model-dir models --model-name TD3_gat_humans --episodes 100 --seed 42
 ```
 
-This is the reference workspace (5 obstacles, 2 pedestrians). It is not the ORCA circle-crossing benchmark or the collision-course stress test. Those result files are listed in [results/MISSING.md](results/MISSING.md).
+This is the reference workspace (5 obstacles, 2 pedestrians). It is not the ORCA circle-crossing benchmark or the collision-course stress test. Those result files are in [results](results/).
 
 ## Husky
 

@@ -4,7 +4,7 @@ Human-aware navigation with a **graph-first** state: LiDAR beams, the robot, and
 
 In simulation, GDT-DRL improves success and sharply reduces collisions versus recent graph-based crowd baselines (HEIGHT, HGAT-DRL) in cooperative and non-cooperative settings, with ablations on LiDAR resolution and trajectory features. The same graph is reconstructed on a Clearpath Husky A200 (Velodyne + ZED) for zero-shot transfer. At deployment the graph acts as a **digital-twin interface**: typed attention and behavioural-mode labels for operators, plus graph-mediated stuck recovery (local re-simulation, fine-tune, action replay) and light online adaptation.
 
-Source, setup, and run commands are in [GDT-DRL](GDT-DRL/). Paper result files that still have to be copied from the other machine are listed in [GDT-DRL/results/MISSING.md](GDT-DRL/results/MISSING.md). Checkpoints are not in this repository.
+Source, setup, and run commands are in [GDT-DRL](GDT-DRL/). Simulation result files are in [GDT-DRL/results](GDT-DRL/results/). Checkpoints are not in this repository.
 
 <img width="458" height="360" alt="showcasev3" src="https://github.com/user-attachments/assets/eec62e9c-9878-4f2d-bb0c-cba729795bf2" />
 

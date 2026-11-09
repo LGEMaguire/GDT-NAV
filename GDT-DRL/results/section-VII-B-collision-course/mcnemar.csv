@@ -1,0 +1,4 @@
+comparison,success_delta_pp,success_ci_low,success_ci_high,success_p,collision_delta_pp,collision_ci_low,collision_ci_high,collision_p
+vs_HEIGHT_trained,14,6,22,0.003,-4,-10,2,0.344
+vs_HGAT-DRL,29,19,39,<0.0001,-27,-37,-17,<0.0001
+vs_HEIGHT_zeroshot,46,35,57,<0.0001,-18,-27,-9,<0.001

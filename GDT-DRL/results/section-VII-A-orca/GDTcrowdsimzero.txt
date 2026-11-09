@@ -1,0 +1,915 @@
+HEIGHT More Crowded Summary
+================================
+
+Seed: 42
+Episodes: 100
+Max Episode Length: 500
+Generated: 2026-05-20T18:24:51
+
+Results:
+  SUCCESS: 77/100 (77.0%)
+  COLLISION: 5/100 (5.0%)
+  TIMEOUT: 18/100 (18.0%)
+
+Episode Details:
+--------------------------------------------------------------------------------
+
+Episode 1:
+  Outcome: SUCCESS
+  Steps: 249
+  Reward: 38.59
+  Robot: (-4.12, -3.16)
+  Goal: (3.86, 0.21)
+  Obstacles: 10
+  Humans: 12
+
+Episode 2:
+  Outcome: SUCCESS
+  Steps: 285
+  Reward: 39.88
+  Robot: (5.32, 4.08)
+  Goal: (3.86, -3.80)
+  Obstacles: 10
+  Humans: 14
+
+Episode 3:
+  Outcome: SUCCESS
+  Steps: 251
+  Reward: 37.58
+  Robot: (-5.64, -1.99)
+  Goal: (1.59, -5.44)
+  Obstacles: 8
+  Humans: 12
+
+Episode 4:
+  Outcome: COLLISION
+  Steps: 67
+  Reward: 1.51
+  Robot: (1.20, 5.25)
+  Goal: (1.50, -3.68)
+  Obstacles: 10
+  Humans: 11
+
+Episode 5:
+  Outcome: SUCCESS
+  Steps: 267
+  Reward: 38.45
+  Robot: (-0.42, 4.23)
+  Goal: (2.46, -3.31)
+  Obstacles: 8
+  Humans: 14
+
+Episode 6:
+  Outcome: SUCCESS
+  Steps: 226
+  Reward: 37.68
+  Robot: (2.87, -2.98)
+  Goal: (-5.48, -2.00)
+  Obstacles: 9
+  Humans: 13
+
+Episode 7:
+  Outcome: SUCCESS
+  Steps: 242
+  Reward: 39.36
+  Robot: (5.17, 5.60)
+  Goal: (3.48, -2.79)
+  Obstacles: 10
+  Humans: 11
+
+Episode 8:
+  Outcome: SUCCESS
+  Steps: 255
+  Reward: 36.65
+  Robot: (-4.17, 1.64)
+  Goal: (3.46, -2.00)
+  Obstacles: 11
+  Humans: 10
+
+Episode 9:
+  Outcome: SUCCESS
+  Steps: 248
+  Reward: 37.84
+  Robot: (-1.71, -4.87)
+  Goal: (-3.50, 3.17)
+  Obstacles: 10
+  Humans: 13
+
+Episode 10:
+  Outcome: SUCCESS
+  Steps: 256
+  Reward: 36.78
+  Robot: (3.91, -4.61)
+  Goal: (2.51, 3.70)
+  Obstacles: 9
+  Humans: 10
+
+Episode 11:
+  Outcome: SUCCESS
+  Steps: 269
+  Reward: 38.85
+  Robot: (-2.17, 4.51)
+  Goal: (3.47, -2.24)
+  Obstacles: 9
+  Humans: 12
+
+Episode 12:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.22
+  Robot: (2.27, -1.33)
+  Goal: (-5.63, 0.14)
+  Obstacles: 10
+  Humans: 11
+
+Episode 13:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 3.85
+  Robot: (4.12, 5.28)
+  Goal: (-1.10, -1.15)
+  Obstacles: 12
+  Humans: 13
+
+Episode 14:
+  Outcome: SUCCESS
+  Steps: 241
+  Reward: 38.81
+  Robot: (5.07, 4.75)
+  Goal: (0.61, -2.62)
+  Obstacles: 10
+  Humans: 10
+
+Episode 15:
+  Outcome: COLLISION
+  Steps: 64
+  Reward: 1
+  Robot: (-3.00, -2.14)
+  Goal: (2.30, 4.90)
+  Obstacles: 11
+  Humans: 10
+
+Episode 16:
+  Outcome: SUCCESS
+  Steps: 295
+  Reward: 38.63
+  Robot: (-3.98, 2.12)
+  Goal: (1.70, -4.72)
+  Obstacles: 9
+  Humans: 10
+
+Episode 17:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.8
+  Robot: (1.43, -2.55)
+  Goal: (-0.37, 5.33)
+  Obstacles: 10
+  Humans: 12
+
+Episode 18:
+  Outcome: SUCCESS
+  Steps: 264
+  Reward: 37.29
+  Robot: (5.43, 0.39)
+  Goal: (-2.03, -4.48)
+  Obstacles: 11
+  Humans: 10
+
+Episode 19:
+  Outcome: SUCCESS
+  Steps: 288
+  Reward: 36.74
+  Robot: (2.64, 5.26)
+  Goal: (5.60, -2.46)
+  Obstacles: 11
+  Humans: 14
+
+Episode 20:
+  Outcome: SUCCESS
+  Steps: 266
+  Reward: 38.02
+  Robot: (3.74, -4.67)
+  Goal: (4.08, 4.20)
+  Obstacles: 12
+  Humans: 13
+
+Episode 21:
+  Outcome: SUCCESS
+  Steps: 271
+  Reward: 39.4
+  Robot: (2.15, -3.49)
+  Goal: (0.70, 5.13)
+  Obstacles: 12
+  Humans: 14
+
+Episode 22:
+  Outcome: SUCCESS
+  Steps: 270
+  Reward: 35.9
+  Robot: (-3.62, -5.49)
+  Goal: (-4.92, 2.94)
+  Obstacles: 10
+  Humans: 10
+
+Episode 23:
+  Outcome: SUCCESS
+  Steps: 252
+  Reward: 36.59
+  Robot: (4.98, -0.25)
+  Goal: (-2.18, 4.90)
+  Obstacles: 8
+  Humans: 10
+
+Episode 24:
+  Outcome: SUCCESS
+  Steps: 263
+  Reward: 38.26
+  Robot: (-4.97, 5.20)
+  Goal: (-4.32, -2.87)
+  Obstacles: 8
+  Humans: 11
+
+Episode 25:
+  Outcome: SUCCESS
+  Steps: 246
+  Reward: 40.44
+  Robot: (0.85, 5.09)
+  Goal: (-3.37, -2.85)
+  Obstacles: 8
+  Humans: 12
+
+Episode 26:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.94
+  Robot: (-2.51, 5.62)
+  Goal: (0.81, -2.14)
+  Obstacles: 10
+  Humans: 10
+
+Episode 27:
+  Outcome: SUCCESS
+  Steps: 267
+  Reward: 40.74
+  Robot: (-2.14, -5.50)
+  Goal: (-0.81, 2.81)
+  Obstacles: 8
+  Humans: 10
+
+Episode 28:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 7.02
+  Robot: (4.02, -1.01)
+  Goal: (-4.18, 0.40)
+  Obstacles: 9
+  Humans: 13
+
+Episode 29:
+  Outcome: SUCCESS
+  Steps: 246
+  Reward: 37.89
+  Robot: (-2.07, 2.47)
+  Goal: (4.02, -3.82)
+  Obstacles: 8
+  Humans: 10
+
+Episode 30:
+  Outcome: SUCCESS
+  Steps: 249
+  Reward: 37.24
+  Robot: (-4.51, -3.77)
+  Goal: (3.65, -2.27)
+  Obstacles: 10
+  Humans: 12
+
+Episode 31:
+  Outcome: SUCCESS
+  Steps: 271
+  Reward: 39.04
+  Robot: (-0.03, 0.94)
+  Goal: (-5.36, -5.33)
+  Obstacles: 8
+  Humans: 13
+
+Episode 32:
+  Outcome: SUCCESS
+  Steps: 251
+  Reward: 38.37
+  Robot: (3.14, 5.35)
+  Goal: (2.87, -3.55)
+  Obstacles: 12
+  Humans: 12
+
+Episode 33:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.17
+  Robot: (3.91, 0.65)
+  Goal: (-2.47, 5.62)
+  Obstacles: 8
+  Humans: 12
+
+Episode 34:
+  Outcome: SUCCESS
+  Steps: 237
+  Reward: 38.61
+  Robot: (-5.37, 4.34)
+  Goal: (2.01, -0.00)
+  Obstacles: 8
+  Humans: 11
+
+Episode 35:
+  Outcome: SUCCESS
+  Steps: 242
+  Reward: 37.71
+  Robot: (4.36, 1.75)
+  Goal: (-2.25, -4.12)
+  Obstacles: 10
+  Humans: 12
+
+Episode 36:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 3.14
+  Robot: (-4.97, -2.53)
+  Goal: (3.55, -5.36)
+  Obstacles: 9
+  Humans: 13
+
+Episode 37:
+  Outcome: SUCCESS
+  Steps: 227
+  Reward: 36.28
+  Robot: (0.73, -4.87)
+  Goal: (3.06, 3.57)
+  Obstacles: 10
+  Humans: 11
+
+Episode 38:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.95
+  Robot: (-4.22, -0.89)
+  Goal: (3.26, 2.26)
+  Obstacles: 12
+  Humans: 13
+
+Episode 39:
+  Outcome: SUCCESS
+  Steps: 240
+  Reward: 39.82
+  Robot: (-0.79, 4.39)
+  Goal: (3.14, -3.05)
+  Obstacles: 8
+  Humans: 13
+
+Episode 40:
+  Outcome: SUCCESS
+  Steps: 276
+  Reward: 39.38
+  Robot: (4.70, -5.07)
+  Goal: (1.53, 2.59)
+  Obstacles: 12
+  Humans: 10
+
+Episode 41:
+  Outcome: SUCCESS
+  Steps: 300
+  Reward: 40.48
+  Robot: (5.36, 3.60)
+  Goal: (-0.01, -3.13)
+  Obstacles: 10
+  Humans: 10
+
+Episode 42:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.82
+  Robot: (-3.34, 5.03)
+  Goal: (-2.56, -3.70)
+  Obstacles: 8
+  Humans: 12
+
+Episode 43:
+  Outcome: SUCCESS
+  Steps: 269
+  Reward: 38.49
+  Robot: (3.89, -2.90)
+  Goal: (-4.60, -4.19)
+  Obstacles: 10
+  Humans: 13
+
+Episode 44:
+  Outcome: SUCCESS
+  Steps: 275
+  Reward: 37.71
+  Robot: (0.35, -3.46)
+  Goal: (-4.86, 3.61)
+  Obstacles: 8
+  Humans: 11
+
+Episode 45:
+  Outcome: SUCCESS
+  Steps: 217
+  Reward: 39.21
+  Robot: (-5.01, 3.75)
+  Goal: (0.31, -2.34)
+  Obstacles: 12
+  Humans: 10
+
+Episode 46:
+  Outcome: SUCCESS
+  Steps: 240
+  Reward: 38.08
+  Robot: (-2.02, -0.28)
+  Goal: (5.53, 2.81)
+  Obstacles: 8
+  Humans: 10
+
+Episode 47:
+  Outcome: SUCCESS
+  Steps: 281
+  Reward: 36.71
+  Robot: (5.28, 2.24)
+  Goal: (-1.65, -2.48)
+  Obstacles: 12
+  Humans: 10
+
+Episode 48:
+  Outcome: SUCCESS
+  Steps: 269
+  Reward: 36.48
+  Robot: (3.72, 2.70)
+  Goal: (-4.85, 1.26)
+  Obstacles: 10
+  Humans: 13
+
+Episode 49:
+  Outcome: SUCCESS
+  Steps: 277
+  Reward: 35.97
+  Robot: (1.83, 4.25)
+  Goal: (-5.23, -0.69)
+  Obstacles: 9
+  Humans: 11
+
+Episode 50:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 6.78
+  Robot: (-4.08, 2.32)
+  Goal: (4.36, 2.60)
+  Obstacles: 10
+  Humans: 10
+
+Episode 51:
+  Outcome: SUCCESS
+  Steps: 268
+  Reward: 39.98
+  Robot: (5.12, 0.50)
+  Goal: (-3.65, 0.08)
+  Obstacles: 11
+  Humans: 10
+
+Episode 52:
+  Outcome: SUCCESS
+  Steps: 262
+  Reward: 36.23
+  Robot: (-4.13, 2.44)
+  Goal: (4.58, 4.50)
+  Obstacles: 9
+  Humans: 11
+
+Episode 53:
+  Outcome: SUCCESS
+  Steps: 278
+  Reward: 36.38
+  Robot: (-5.24, 1.66)
+  Goal: (0.13, -4.65)
+  Obstacles: 10
+  Humans: 10
+
+Episode 54:
+  Outcome: SUCCESS
+  Steps: 239
+  Reward: 38.51
+  Robot: (-4.72, -0.85)
+  Goal: (3.71, -1.11)
+  Obstacles: 10
+  Humans: 11
+
+Episode 55:
+  Outcome: SUCCESS
+  Steps: 302
+  Reward: 38.34
+  Robot: (5.06, -4.80)
+  Goal: (-0.58, 1.74)
+  Obstacles: 9
+  Humans: 11
+
+Episode 56:
+  Outcome: SUCCESS
+  Steps: 221
+  Reward: 37.77
+  Robot: (-2.98, 1.64)
+  Goal: (4.96, -0.97)
+  Obstacles: 9
+  Humans: 10
+
+Episode 57:
+  Outcome: SUCCESS
+  Steps: 221
+  Reward: 37.8
+  Robot: (2.66, -0.01)
+  Goal: (-5.10, -3.18)
+  Obstacles: 11
+  Humans: 12
+
+Episode 58:
+  Outcome: SUCCESS
+  Steps: 258
+  Reward: 38.85
+  Robot: (-3.39, -4.12)
+  Goal: (0.38, 3.02)
+  Obstacles: 10
+  Humans: 13
+
+Episode 59:
+  Outcome: SUCCESS
+  Steps: 266
+  Reward: 37.58
+  Robot: (1.41, 1.29)
+  Goal: (-3.71, -4.97)
+  Obstacles: 9
+  Humans: 14
+
+Episode 60:
+  Outcome: SUCCESS
+  Steps: 254
+  Reward: 37.68
+  Robot: (-4.03, 4.08)
+  Goal: (4.27, 3.46)
+  Obstacles: 9
+  Humans: 12
+
+Episode 61:
+  Outcome: SUCCESS
+  Steps: 289
+  Reward: 41.28
+  Robot: (-0.93, 5.23)
+  Goal: (2.53, -2.98)
+  Obstacles: 10
+  Humans: 14
+
+Episode 62:
+  Outcome: SUCCESS
+  Steps: 261
+  Reward: 36.74
+  Robot: (4.28, -0.03)
+  Goal: (-2.05, 5.00)
+  Obstacles: 9
+  Humans: 13
+
+Episode 63:
+  Outcome: SUCCESS
+  Steps: 219
+  Reward: 38.21
+  Robot: (-2.42, -5.56)
+  Goal: (2.98, 0.49)
+  Obstacles: 10
+  Humans: 12
+
+Episode 64:
+  Outcome: SUCCESS
+  Steps: 246
+  Reward: 37.08
+  Robot: (-4.31, 5.37)
+  Goal: (-1.97, -2.69)
+  Obstacles: 10
+  Humans: 12
+
+Episode 65:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 3.56
+  Robot: (0.18, -1.94)
+  Goal: (4.68, 5.40)
+  Obstacles: 10
+  Humans: 14
+
+Episode 66:
+  Outcome: SUCCESS
+  Steps: 222
+  Reward: 37.91
+  Robot: (5.45, 3.06)
+  Goal: (2.26, -5.03)
+  Obstacles: 11
+  Humans: 13
+
+Episode 67:
+  Outcome: SUCCESS
+  Steps: 280
+  Reward: 37.72
+  Robot: (-0.98, 2.46)
+  Goal: (0.07, -5.58)
+  Obstacles: 9
+  Humans: 10
+
+Episode 68:
+  Outcome: SUCCESS
+  Steps: 238
+  Reward: 38.44
+  Robot: (4.81, 4.26)
+  Goal: (-2.48, 0.94)
+  Obstacles: 10
+  Humans: 10
+
+Episode 69:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.16
+  Robot: (-2.57, 3.49)
+  Goal: (-3.55, -4.78)
+  Obstacles: 9
+  Humans: 12
+
+Episode 70:
+  Outcome: SUCCESS
+  Steps: 254
+  Reward: 38.09
+  Robot: (2.10, 4.78)
+  Goal: (3.21, -4.04)
+  Obstacles: 10
+  Humans: 10
+
+Episode 71:
+  Outcome: SUCCESS
+  Steps: 250
+  Reward: 37.58
+  Robot: (3.41, 3.68)
+  Goal: (-0.30, -4.26)
+  Obstacles: 12
+  Humans: 14
+
+Episode 72:
+  Outcome: COLLISION
+  Steps: 25
+  Reward: 0.28
+  Robot: (-3.96, -1.94)
+  Goal: (2.39, 3.74)
+  Obstacles: 12
+  Humans: 11
+
+Episode 73:
+  Outcome: SUCCESS
+  Steps: 281
+  Reward: 39.4
+  Robot: (-5.40, -2.77)
+  Goal: (-3.80, 5.07)
+  Obstacles: 11
+  Humans: 10
+
+Episode 74:
+  Outcome: COLLISION
+  Steps: 25
+  Reward: 0.68
+  Robot: (3.04, 3.00)
+  Goal: (-2.42, -4.12)
+  Obstacles: 11
+  Humans: 13
+
+Episode 75:
+  Outcome: SUCCESS
+  Steps: 269
+  Reward: 37.36
+  Robot: (-4.15, 4.07)
+  Goal: (3.96, 3.71)
+  Obstacles: 9
+  Humans: 13
+
+Episode 76:
+  Outcome: COLLISION
+  Steps: 59
+  Reward: 1.37
+  Robot: (3.65, -2.85)
+  Goal: (2.31, 5.38)
+  Obstacles: 11
+  Humans: 10
+
+Episode 77:
+  Outcome: SUCCESS
+  Steps: 210
+  Reward: 37.86
+  Robot: (3.12, -4.07)
+  Goal: (4.01, 4.88)
+  Obstacles: 12
+  Humans: 14
+
+Episode 78:
+  Outcome: SUCCESS
+  Steps: 289
+  Reward: 37.43
+  Robot: (-4.96, 5.07)
+  Goal: (2.58, 0.38)
+  Obstacles: 11
+  Humans: 13
+
+Episode 79:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.57
+  Robot: (-2.93, -3.10)
+  Goal: (2.53, 3.87)
+  Obstacles: 12
+  Humans: 13
+
+Episode 80:
+  Outcome: SUCCESS
+  Steps: 267
+  Reward: 38.72
+  Robot: (-3.29, 4.60)
+  Goal: (3.69, 0.11)
+  Obstacles: 8
+  Humans: 11
+
+Episode 81:
+  Outcome: SUCCESS
+  Steps: 236
+  Reward: 39.59
+  Robot: (-0.38, 3.42)
+  Goal: (0.25, -5.28)
+  Obstacles: 10
+  Humans: 12
+
+Episode 82:
+  Outcome: SUCCESS
+  Steps: 245
+  Reward: 38.12
+  Robot: (1.48, -4.88)
+  Goal: (3.07, 3.11)
+  Obstacles: 8
+  Humans: 13
+
+Episode 83:
+  Outcome: SUCCESS
+  Steps: 249
+  Reward: 36.81
+  Robot: (0.58, -5.52)
+  Goal: (-0.74, 2.91)
+  Obstacles: 12
+  Humans: 12
+
+Episode 84:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.53
+  Robot: (-4.44, -4.56)
+  Goal: (-1.53, 3.05)
+  Obstacles: 10
+  Humans: 14
+
+Episode 85:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 7.14
+  Robot: (0.60, -5.02)
+  Goal: (4.39, 2.04)
+  Obstacles: 10
+  Humans: 13
+
+Episode 86:
+  Outcome: SUCCESS
+  Steps: 264
+  Reward: 37.2
+  Robot: (-2.10, 5.21)
+  Goal: (-1.97, -3.37)
+  Obstacles: 10
+  Humans: 13
+
+Episode 87:
+  Outcome: SUCCESS
+  Steps: 310
+  Reward: 40.18
+  Robot: (-2.07, -4.45)
+  Goal: (-4.94, 3.03)
+  Obstacles: 8
+  Humans: 12
+
+Episode 88:
+  Outcome: SUCCESS
+  Steps: 261
+  Reward: 39.51
+  Robot: (-4.08, -2.25)
+  Goal: (3.75, 1.04)
+  Obstacles: 11
+  Humans: 13
+
+Episode 89:
+  Outcome: SUCCESS
+  Steps: 242
+  Reward: 35.44
+  Robot: (-1.18, 3.86)
+  Goal: (4.25, -2.52)
+  Obstacles: 11
+  Humans: 13
+
+Episode 90:
+  Outcome: SUCCESS
+  Steps: 256
+  Reward: 37.4
+  Robot: (5.25, 5.30)
+  Goal: (2.44, -2.50)
+  Obstacles: 9
+  Humans: 13
+
+Episode 91:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 5.22
+  Robot: (2.57, 5.01)
+  Goal: (4.99, -2.84)
+  Obstacles: 11
+  Humans: 10
+
+Episode 92:
+  Outcome: SUCCESS
+  Steps: 226
+  Reward: 38.58
+  Robot: (-2.31, 4.75)
+  Goal: (1.64, -2.30)
+  Obstacles: 10
+  Humans: 11
+
+Episode 93:
+  Outcome: SUCCESS
+  Steps: 261
+  Reward: 40.1
+  Robot: (4.86, 2.72)
+  Goal: (-3.21, -0.01)
+  Obstacles: 11
+  Humans: 12
+
+Episode 94:
+  Outcome: SUCCESS
+  Steps: 282
+  Reward: 37.14
+  Robot: (-1.72, 3.90)
+  Goal: (1.64, -4.03)
+  Obstacles: 12
+  Humans: 12
+
+Episode 95:
+  Outcome: SUCCESS
+  Steps: 291
+  Reward: 36.71
+  Robot: (2.95, -2.35)
+  Goal: (-5.09, -4.29)
+  Obstacles: 12
+  Humans: 11
+
+Episode 96:
+  Outcome: SUCCESS
+  Steps: 264
+  Reward: 37.38
+  Robot: (2.95, 1.99)
+  Goal: (-4.55, -1.98)
+  Obstacles: 11
+  Humans: 12
+
+Episode 97:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.6
+  Robot: (-4.17, 3.98)
+  Goal: (2.74, -1.44)
+  Obstacles: 8
+  Humans: 10
+
+Episode 98:
+  Outcome: SUCCESS
+  Steps: 268
+  Reward: 38.65
+  Robot: (-4.72, 1.86)
+  Goal: (3.48, 4.62)
+  Obstacles: 9
+  Humans: 12
+
+Episode 99:
+  Outcome: SUCCESS
+  Steps: 258
+  Reward: 35.4
+  Robot: (-3.06, -4.64)
+  Goal: (3.96, 0.68)
+  Obstacles: 9
+  Humans: 12
+
+Episode 100:
+  Outcome: TIMEOUT
+  Steps: 500
+  Reward: 4.73
+  Robot: (-2.43, 4.99)
+  Goal: (2.17, -1.59)
+  Obstacles: 12
+  Humans: 12
