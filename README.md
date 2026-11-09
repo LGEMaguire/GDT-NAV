@@ -1,23 +1,29 @@
 ## GDT-DRL
 
-Human-aware navigation with a **graph-first** state: LiDAR beams, the robot, and detected humans are distinct nodes in one heterogeneous graph, encoded by a Graph Attention Network (GAT) and controlled with TD3. Short-horizon motion cues are embedded in human nodes for proactive avoidance, and a value-grounded early-stopping rule freezes the GAT once a held-out value loss saturates so the policy can refine on a stable representation.
+GDT-DRL is for human-aware navigation of mobile robots in human-populated environments. The robot pursues a goal, avoids static obstacles and responds to pedestrian motion, in simulation and in zero-shot deployment on a physical robot. Against other navigation frameworks it achieves higher observed success and lower observed collision rates in dense crowds and in a collision-course stress test, with strong zero-shot transfer.
 
-In simulation, GDT-DRL improves success and sharply reduces collisions versus recent graph-based crowd baselines (HEIGHT, HGAT-DRL) in cooperative and non-cooperative settings, with ablations on LiDAR resolution and trajectory features. The same graph is reconstructed on a Clearpath Husky A200 (Velodyne + ZED) for zero-shot transfer. At deployment the graph acts as a **digital-twin interface**: typed attention and behavioural-mode labels for operators, plus graph-mediated stuck recovery (local re-simulation, fine-tune, action replay) and light online adaptation.
+The framework is a graph-first digital twin. At each control cycle, LiDAR beams, the robot state and detected humans form distinct node types in a single heterogeneous graph. Short-horizon future-position features augment the human nodes so the policy can reason proactively rather than purely reactively. A graph attention network processes that graph, and the resulting embedding drives a Twin Delayed Deep Deterministic Policy Gradient (TD3) controller.
 
-Source, setup, and run commands are in [GDT-DRL](GDT-DRL/). Simulation result files are in [GDT-DRL/results](GDT-DRL/results/). Checkpoints are not in this repository.
+<p align="center">
+  <img src="media/GDT-DRL_trained_crowdsim.gif" alt="GDT-DRL in CrowdSim crowd benchmark" width="720"/>
+  <br/>
+  <em>GDT-DRL in a cooperative crowd benchmark (simulation).</em>
+</p>
 
-<img width="458" height="360" alt="showcasev3" src="https://github.com/user-attachments/assets/eec62e9c-9878-4f2d-bb0c-cba729795bf2" />
+<p align="center">
+  <img src="media/GDT-DRL_realworld_nav.gif" alt="GDT-DRL real-world Husky navigation" width="720"/>
+  <br/>
+  <em>General navigation on the physical Husky with live graph twin view.</em>
+</p>
 
-
-<img width="520" height="520" alt="GDT-DRL_trained_crowdsim" src="https://github.com/user-attachments/assets/b1d004f3-b83b-418c-a477-48e869fc057f" />
-
-
-
-
-## DT Recovery
-
-Recovery source and run commands are in [GDT-REC](GDT-REC/).
+## DT Recovery Demo
 
 [![Watch the demo](https://img.youtube.com/vi/KmYLyrCZc0Y/hqdefault.jpg)](https://youtube.com/shorts/KmYLyrCZc0Y?feature=share)
 
 **Video:** [Watch demo](https://youtube.com/shorts/KmYLyrCZc0Y?feature=share)
+
+## Deployment Demo
+
+[![Watch the deployment](https://img.youtube.com/vi/6QW1z5_KnqM/hqdefault.jpg)](https://youtube.com/shorts/6QW1z5_KnqM?feature=share)
+
+**Video:** [Watch deployment](https://youtube.com/shorts/6QW1z5_KnqM?feature=share)
